@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My New Site</title>
+    <base href="/app/" />
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>My New Site</h2>
+        </div>
+        <div class="menu">
+            <div class="nav list">
+                <div class="list-item">
+                    <a class="btn" ui-sref="dashboard" ui-sref-active="selected">Home</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div ui-view class="body-content"></div>
+
+
+    <footer>
+        <p class="copyright">&copy; 2016 - Web Ngen</p>
+    </footer>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.1.4.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+    <script src="/js/site.js"></script>
+</body>
+</html>
