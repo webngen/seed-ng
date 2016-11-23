@@ -1,4 +1,4 @@
-/// <reference path="../typings/globals/angular/index.d.ts" />
+/// <reference path="../typings/index.d.ts" />
 var mod: ng.IModule;
 
 namespace MySite {
